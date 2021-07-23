@@ -1,3 +1,6 @@
+https://docs.looker.com/setup-and-management/database-config/mssql
+
+
 # Encrypting Network Traffic
 Looker strongly recommends encrypting network traffic between the Looker application and your database. Consider one of the options described on the Enabling secure database access documentation page.
 
@@ -76,4 +79,4 @@ CREATE SCHEMA looker_scratch AUTHORIZATION looker;
 
 
 
-https://docs.looker.com/setup-and-management/database-config/mssql
+
