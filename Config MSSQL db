@@ -48,7 +48,6 @@ ALTER ROLE db_datareader ADD MEMBER looker;
 GO
 ```
 
-
 # Granting the Looker user permission to view and stop running queries
 Looker requires rights to detect and stop currently running queries, which requires the following permissions:
 
