@@ -23,9 +23,27 @@ All network traffic from Looker will come from one of the following IP addresses
 
 ## Legacy Hosting
 
-Instances hosted on Microsoft Azure
+**Instances hosted on Microsoft Azure**
+
 For instances that are hosted on Azure, add to the allowlist the IP addresses that match your region:
 
+*Virginia, USA (us-east2)*
+- 52.147.190.201
 
-Virginia, USA (us-east2)
-52.147.190.201
+
+
+
+# Option 2: SSL encryption
+A second option is to enable SSL encryption on your database. SSL prevents anyone from being able to intercept the data between Looker and your database.
+
+You’ll first need to complete the IP address allowlist instructions above. Further instructions for SSL encryption are dialect specific, so links to SSL instructions are included in the Database Configuration section.
+https://docs.looker.com/setup-and-management/database-config
+
+
+# Option 3: SSH tunnel
+The third option you can use to protect your data is a SSH Tunnel. Using a tunnel provides an encrypted connection and extra authentication for enhanced security. Instructions for this option are provided on the Using an SSH tunnel documentation page.
+https://docs.looker.com/setup-and-management/enabling-secure-db/ssh-tunnel
+
+
+
+
