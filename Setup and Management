@@ -1,3 +1,4 @@
-# CONFIGURING SERVER AUTHENTICATION
+# Encrypting network traffic
 
-
+Looker strongly recommends encrypting network traffic between the Looker application and your database. Consider one of the options described on the Enabling secure database access documentation page.
+If you’re interested in using SSL encryption, see the Microsoft documentation.
