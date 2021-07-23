@@ -74,3 +74,6 @@ To create a schema owned by the Looker user and grant the necessary rights to th
 CREATE SCHEMA looker_scratch AUTHORIZATION looker;
 ```
 
+
+
+https://docs.looker.com/setup-and-management/database-config/mssql
